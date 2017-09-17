@@ -76,15 +76,6 @@ function displayNortherLights(){
 		newLine.style.left = (i*lineW) + 'px';
 		newLine.style.height = lineHeight + 'px';
 
-		// //Background colour for animation
-		// if((i*lineW < windowW*0.05) || (i*lineW > windowW-(windowW*0.05))){
-		// 	newLine.className += " sky-dark";
-		// } else if((i*lineW < windowW*0.1) || (i*lineW > windowW-(windowW*0.1))) {
-		// 	newLine.className += " sky";
-		// } else {
-		// 	newLine.className += " sky-light";
-		// }
-
 		//Animate
 		if(Math.random()<0.34){
 			newLine.className += " anim-delay-l";
