@@ -32,7 +32,7 @@ function displayStars(){
 
 function displayNortherLights(){
 	var windowW = window.innerWidth,
-		lineW = 7,
+		lineW = 10,
 		nbLine = Math.floor(windowW / lineW);
 
 	var maxHeight = container.height(),
